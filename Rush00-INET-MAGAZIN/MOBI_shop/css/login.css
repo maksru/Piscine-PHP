@@ -1,0 +1,72 @@
+.form {
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-align: center;
+}
+.form fieldset{
+    border: none;
+}
+.form legend {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.form input[type="text"],
+.form input[type="password"],
+.form input[type="email"]{
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0 0 30px 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+}
+.form input[type="text"]:focus,
+.form input[type="password"]:focus,
+.form input[type="email"]:focus {
+    background: #d2d9dd;
+}
+.form input[type="submit"] {
+    position: relative;
+    display: block;
+    padding: 10px 30px 10px 30px;
+    color: #FFF;
+    margin: -9px auto 15px auto;
+    background: #003559;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 95%;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.form input[type="submit"]:hover{
+    background: #9ACD32;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+fieldset > legend {
+    font-weight: bold;
+    text-align: center;
+    color: #003559;
+}
+.form > a {
+    text-decoration: none;
+    color:  #003559;
+    margin-right: 20px;
+}
+.form > a:hover {
+    color: #9ACD32;
+    transition: .3s ease-in-out;
+    text-decoration: underline;
+}

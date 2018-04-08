@@ -1,0 +1,46 @@
+.center {
+    text-align: center;
+}
+.table {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table {
+    border-collapse: collapse;
+}
+td {
+    border-bottom: 2px solid #9ACD32;
+}
+.name {
+    font-weight: bold;
+    color: #9ACD32;
+}
+.price {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #9ACD32;
+}
+.t_img > img {
+    width: 200px;
+    height: 180px;
+}
+form input[type="submit"] {
+    padding: 10px 30px 10px 30px;
+    color: #FFF;
+    margin: -9px auto 15px auto;
+    background: #003559;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 95%;
+    border-radius: 8px;
+    font-weight: bold;
+}
+form input[type="submit"]:hover{
+    background: #9ACD32;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+

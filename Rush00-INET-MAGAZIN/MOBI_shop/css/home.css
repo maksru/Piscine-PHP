@@ -1,0 +1,25 @@
+.home {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.home > h1 {
+    text-align: center;
+    color: #003559;
+    font-size: 3em;
+}
+article > p {
+    color: #003559;
+    font: 1em Georgia, serif;
+}
+strong {
+    color: #9ACD32;
+}
+.logo > img {
+    width: 30%;
+    height: 30%;
+}
+.logo {
+    text-align: center;
+}

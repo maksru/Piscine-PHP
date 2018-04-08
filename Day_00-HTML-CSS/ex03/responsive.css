@@ -1,0 +1,104 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mrudyk <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/04/02 17:32:53 by mrudyk            #+#    #+#              #
+#    Updated: 2018/04/02 17:32:56 by mrudyk           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+    .hed {
+      color: #ffffff;
+      text-align: center;
+    }
+
+    #hidden{
+      border:none;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    td {
+      width: 5%;
+      height: 60%;
+      border: 1px solid black;
+    }
+
+    h2 {
+      font-size: 1vw;
+      color: #000000;
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 2vw;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+    }
+
+    h3 {
+      font-size: 1vw;
+      color: #ffffff;
+      text-align: center;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1vw;
+      margin: 0;
+    }
+
+    body {
+      background-image: url(http://www.ingibitor.com.ua/sites/default/files/slide1_0.jpg);
+      background-size: 150%;
+    }
+
+    .nbr_weight {
+      margin-right: 2px;
+      text-align: right;
+    }
+
+    .nbr_bottom {
+      margin-left: 2px;
+      text-align: left;
+    }
+
+    .color_old_1 {
+      background-color: #ffd700;
+    }
+
+    .color_old_2 {
+      background-color: #ff1493;
+    }
+
+    .color_old_3 {
+      background-color: #6b8e23;
+    }
+
+    .color_old_4 {
+      background-color: #b22222;
+    }
+
+    .color_old_5 {
+      background-color: #6a5acd;
+    }
+
+    .color_old_6 {
+      background-color: #20b2aa;
+    }
+
+    .color_old_7 {
+      background-color: #4169e1;
+    }
+
+    .color_old_8 {
+      background-color: #ff8c00;
+    }

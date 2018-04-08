@@ -1,0 +1,240 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    doft.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: mrudyk <marvin@42.fr>                      +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/04/02 18:32:56 by mrudyk            #+#    #+#              #
+#    Updated: 2018/04/02 18:32:58 by mrudyk           ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+* {
+  width:100%;
+  margin:auto;
+  background-color: #909090 !important; 
+}
+
+p {
+  font-size: 0.8vw;
+  margin:0;
+  font-family: Verdana;
+}
+
+#main {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#eye {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#chat-icon {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#arrow {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#tools {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#towel {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+#book {
+	display:block;
+  	width:60%;
+  	margin:auto;
+  	margin-top:10%;
+}
+
+.gray-block {
+  background-color: rgb(144, 144, 144);
+  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+}
+
+.mid {
+  display: inline-block;
+  width: 70%;
+  height: 50%;
+  margin-left: 15%;;
+  margin-top: 2%;
+}
+
+#day42 {
+  display: inline-block;
+  width: 35%;
+}
+
+#loupe {
+  width: 22%;
+  z-index: 2;
+  margin-left: 39%;
+  position: absolute;
+}
+
+#reload {
+  width: 60%;
+  display: block;
+  margin-left: 35%;
+}
+
+#close {
+  width: 60%;
+  display: block;
+  margin-top: 210%;
+  margin-left: 35%;
+}
+
+.top-block {
+  width: 74%;
+  height: auto;
+  margin: auto;
+  margin-top: 1%;
+  padding: 1%;
+  position: relative;
+  z-index: 1;
+}
+
+
+.mid-block {
+  width: 72%;
+  height: auto;
+  padding: 1%;
+  float: left;
+  margin-left: 3%;
+  z-index: 1;
+}
+
+#cluster {
+  width: 100%;
+  display: block;
+  margin: auto;
+  z-index: 2;
+  height: 100%;
+}
+
+#ikea {
+  width:10%;
+  height: 43px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 57%;
+  position: relative;
+}
+
+#apple {
+  width:20%;
+  height: 43px;
+  float: right;
+  margin-top: -22%;
+  margin-right: 0%;
+  position: relative;
+}
+
+.right-block {
+  width: 8%;
+  height: auto;
+  padding: 1%;
+  float: right;
+  margin-left: 1%;
+  padding-bottom: 13%;
+}
+
+.brick {
+    display: block;
+    width: 30%;
+    visibility: hidden;
+}
+
+#bricks {
+  display: block;
+  background : url("resources/brick.jpg");
+  background-repeat: repeat;
+  background-size: 27%;
+}
+
+.green {
+  display: inline-block;
+  background-color: #98FB98;
+  width: 36%;
+  height: auto;
+  z-index: 4;
+  margin-top: -6%;
+  margin-left: -6%;
+  box-shadow: 10px 10px 5px black;
+  border-radius: 10px;
+  padding: 1%;
+  padding-bottom: 5%;
+}
+
+#top-right {
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  float: right;
+  width: 3%;
+}
+
+.left-block{
+  width: 8%;
+  height: auto;
+  padding: 1%;
+  float: left;
+  padding-bottom: 2%;
+}
+#eye {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+#big_word {
+  font-size: 2vw;
+  font-family: Georgia;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#ordinateur {
+  text-shadow: 6px 6px 5px red;
+}
+
+#claster {
+  vertical-align: center;
+  display: inline-block;
+  width: 20%;
+  background-color: grey;
+  border-color: black;
+  border: 1px solid;
+  border-style: none;
+  height: 10%;
+  font-size: 0.8vw;
+}
+
+#formulaire {
+  width: 65%;
+  height: 10%;
+  display: inline-block;
+  margin-top: 1%;
+  font-size: 0.8vw;
+}

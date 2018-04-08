@@ -1,0 +1,9 @@
+.contact > h1 {
+    color: #003559;
+    font-size: 3em;
+    font-weight: bold;
+}
+.contact > p {
+    color: #003559;
+    font: 1em Georgia, serif;
+}

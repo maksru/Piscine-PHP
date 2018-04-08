@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #ffffff; 
+    margin: 0;
+    /*background: radial-gradient(#BFD6E2 1px, rgba(255,255,255,0) 2px);*/
+    background-size: 10px 10px;
+}
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav a {
+    text-decoration: none;
+    outline: none;
+    display: block;
+}
+.topmenu {
+    text-align: center;
+    backface-visibility: hidden;
+    background: #003559;
+}
+.topmenu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.topmenu > li {
+    display: inline-block;
+    position: relative;
+}
+.topmenu > li > a {
+    font-family: 'Exo 2', sans-serif;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: .4s ease-in-out;
+}
+.down:after {
+    content: "\f107";
+    margin-left: 8px;
+    font-family: FontAwesome;
+}
+.topmenu > li > a:hover {color: #9ACD32;}
+.submenu {
+    background: white;
+    border: 2px solid #003559;
+    position: absolute;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 5;
+    width: 150px;
+    transform: perspective(600px) rotateX(-90deg);
+    transform-origin: 0% 0%;
+    transition: .6s ease-in-out;
+}
+.topmenu > li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+    transform: perspective(600px) rotateX(0deg);
+}
+.submenu li a {
+    color: #003559;
+    font-size: 13px;
+    line-height: 36px;
+    padding: 0 25px;
+    font-family: 'Kurale', serif;
+}
+.submenu li a:hover {color: #9ACD32;}
+
+.botmenu {
+    background-color: #ffffff;
+    display: none;
+    border: 2px solid #003559;
+    position: absolute;
+    padding-right: 13px;
+    padding-bottom: 35px;
+    margin-left: 70px;
+    margin-top: -37px;
+}
+.down_down > li:hover .botmenu{
+    display: inline-block;
+}
+.container {
+    text-align: center;
+    min-height: calc(100vh - 175px);
+}
+footer > hr {
+    height: 5px;
+    background-color: #003559;
+}
+footer > p {
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #003559;
+    padding-right: 30px;
+}
