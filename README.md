@@ -13,9 +13,11 @@ PHP-pool in 2 weeks to learn the languages of the Internet
 
 [Subject Day_05] (https://github.com/maksru/Piscine-PHP/blob/master/Day_05-SQL/d05.en.pdf)
 
-[Subject Day_06] ()
+[Subject Day_06] (https://github.com/maksru/Piscine-PHP/blob/master/Day_06-PHP-OBJECT/d06.en.pdf)
 
-[Subject Day_07] ()
+[Subject Day_07] (https://github.com/maksru/Piscine-PHP/blob/master/Day_07-PHP-OBJECT/d07.en.pdf)
+
+[Subject Day_08] ()
 
 [Subject Day_09] ()
 
