@@ -17,7 +17,7 @@ PHP-pool in 2 weeks to learn the languages of the Internet
 
 [Subject Day_07] (https://github.com/maksru/Piscine-PHP/blob/master/Day_07-PHP-OBJECT/d07.en.pdf)
 
-[Subject Day_08] ()
+[Subject Day_08] (https://github.com/maksru/Piscine-PHP/blob/master/Day_08-PHP-OBJECT/d08.en.pdf)
 
 [Subject Day_09] ()
 
