@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	text-align: center;
+	font-size: 18px;
+	background-image: url("../img/fon_game_img.jpg");
+	background-size: 100%;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+td {
+	width: 0.7vw;
+	height: 0.7vw;
+}
+
+td:hover {
+	background-color: #ffffff;
+}
