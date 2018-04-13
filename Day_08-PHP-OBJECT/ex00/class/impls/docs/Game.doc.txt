@@ -1,0 +1,5 @@
+The object that represente a game, it contains all players and his id any other info will be computed by api call.
+
+You can instanciate a new Game, it will create default setup for players.
+If you want to save it, just call the save() function that will serialize the instance in a file under datas/parties/{id}.
+You can load existing one by calling the static method Game::load($id) where $id is the uuid of the game, it will load the filer under datas/parties/{id}.

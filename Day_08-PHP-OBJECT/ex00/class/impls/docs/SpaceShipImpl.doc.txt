@@ -1,0 +1,2 @@
+This class is an implemented ship, you can declare it as valid ship in a player.
+You can call all public methods from 'SpaceShip.doc.txt' from any implementation;

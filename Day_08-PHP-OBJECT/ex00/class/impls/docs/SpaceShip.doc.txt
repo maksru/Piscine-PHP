@@ -1,0 +1,4 @@
+This class is the default ship, it will not be used for instance anything cause its a abstract class.
+It have all the getter/setter for the properties neeed for a ship.
+
+If you want to create a ship, you will need to extends this class and define the properties in the constructor.

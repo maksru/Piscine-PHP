@@ -1,0 +1,4 @@
+This class is the default weapon, it will not be used for instance anything cause its a abstract class.
+It have all the getter/setter for the properties neeed for a weapon.
+
+If you want to create a weapon, you will need to extends this class and define the properties in the constructor.

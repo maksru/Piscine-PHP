@@ -1,0 +1,2 @@
+This class is an implemented weapon, you can declare it as valid weapon in a ship.
+You can call all public methods from 'Weapon.doc.txt' from any implementation;

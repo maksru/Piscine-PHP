@@ -8,15 +8,15 @@ body {
     background-size: cover;
 }
 
-h3 {
-	text-align: center;
-	padding-top: 5px;
-}
-
 form {
     margin-right: auto;
     margin-left: auto;
     width: 300px;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 5px;
 }
 
 label {
@@ -24,29 +24,26 @@ label {
 }
 
 input {
-	width: 300px;
-	padding: 10px;
-	border: 1px solid black;
-	border-radius: 4px;
 	text-align: center;
+	margin-left: auto;
 	margin-right: auto;
-    margin-left: auto;
-    box-sizing: border-box;
 	margin-top: 5px;
 	margin-bottom: 15px; 
-}
-
-.register{
-	padding-bottom: 5px;
-	text-align: center;
+	padding: 10px;
+	box-sizing: border-box;
+	border-radius: 5px;
 }
 
 .container {
-	margin-top: 15%;
-	/*margin-bottom: 20%; */
+	margin-top: 10%;
 	border-radius: 5px;
+	margin-left: auto;
+	margin-right: auto;
 	width: 500px;
-    margin-right: auto;
-    margin-left: auto;
-    background-color: #f0f0f0;
+	background-color: #f0f0f0;
+}
+
+.register {
+	text-align: center;
+	padding-bottom: 5px;
 }
