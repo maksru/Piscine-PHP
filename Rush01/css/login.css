@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	background: url(../img/fon_main_img.jpg) no-repeat fixed;
+    background-size: cover;
+}
+
+h3 {
+	text-align: center;
+	padding-top: 5px;
+}
+
+form {
+    margin-right: auto;
+    margin-left: auto;
+    width: 300px;
+}
+
+label {
+	font-size: 15px;
+}
+
+input {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 4px;
+	text-align: center;
+	margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+	margin-top: 5px;
+	margin-bottom: 15px; 
+}
+
+.register{
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.container {
+	margin-top: 15%;
+	border-radius: 5px;
+	width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f0f0f0;
+}
