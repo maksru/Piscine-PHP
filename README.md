@@ -23,4 +23,4 @@ PHP-pool in 2 weeks to learn the languages of the Internet
 
 [Subject Rush00] (https://github.com/maksru/Piscine-PHP/blob/master/Rush00-INET-MAGAZIN/rush00.en.pdf)
 
-[Subject Rush01] ()
+[Subject Rush01] (https://github.com/maksru/Piscine-PHP/blob/master/Rush01-Star_Wars/rush01.en.pdf)
