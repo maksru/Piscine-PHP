@@ -19,7 +19,7 @@ PHP-pool in 2 weeks to learn the languages of the Internet
 
 [Subject Day_08] (https://github.com/maksru/Piscine-PHP/blob/master/Day_08-PHP-OBJECT/d08.en.pdf)
 
-[Subject Day_09] ()
+[Subject Day_09] (https://github.com/maksru/Piscine-PHP/blob/master/Day_09-JAVASCRIPT-JQUERY/d09.en.pdf)
 
 [Subject Rush00] (https://github.com/maksru/Piscine-PHP/blob/master/Rush00-INET-MAGAZIN/rush00.en.pdf)
 
