@@ -1,0 +1,11 @@
+
+<- Player ----------------------------------------------------------------------
+Class Player discribes player and his fleet.
+
+Constructor requires array with mandatory key 'name' for player's name and opti-
+onal key 'ships' for array of ShipInBattle instances.
+
+It is possible to add ships to fleet by fillFleet() method.
+
+getFullHealth() returns summary shield of fleet.
+---------------------------------------------------------------------- Player ->

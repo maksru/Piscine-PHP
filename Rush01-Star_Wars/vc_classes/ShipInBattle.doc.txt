@@ -1,0 +1,21 @@
+
+<- ShipInBattle ----------------------------------------------------------------------
+ShipInBattle class discribes the battle ship. It extends Spaceship class.
+
+Contains two public attributes:
+- position (contains it's coordinates in array)
+- rotation (contains ship's bow direction, possible values 0, 1, 2, 3)
+
+Constructor requires array:
+- key 'position', mandatory, coordinates in array
+- key 'name', mandatory, name of the ship
+- key 'weapon', mandatory, instance of Weapon
+- key 'rotation', optional, ship's direction
+- key 'sprite', optional, link to ship picture
+
+Methods:
+move() - move the ship forward
+turnLeft() - turn the ship to the left
+turnRight() - turn the ship to the right
+fire() - to use weapon
+---------------------------------------------------------------------- ShipInBattle ->

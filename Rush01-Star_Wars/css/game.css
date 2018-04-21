@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	text-align: center;
+	font-size: 18px;
+	background-image: url("../img/fon_game_img.jpg");
+	background-size: 100%;
+}
+
+table {
+	margin: auto;
+	border-collapse: collapse;
+	width: 80%;
+}
+
+td {
+	width: 0.7vw;
+	height: 0.7vw;
+}
+
+td:hover {
+	background-color: #ffffff;
+}
+
+#player1 {
+	background-color: red;
+}
+#player1>img {
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    margin: -20px 0px 0px -20px;
+}
+#player2 {
+	background-color: green;
+}
+#player2>img {
+    height: 40px;
+    position: absolute;
+    width: 40px;
+    margin: -20px 0px 0px -20px;
+}
+
+form > button {
+	margin: 10px 0px;
+}
+.fireTraceCell > img {
+	position: absolute;
+	height: 15px;
+	width: 15px;
+    margin: -7px 0px 0px -7px;
+}
+
+#user_logo_1 {
+	width: 100px;
+	height: 100px;
+	margin-top: 20px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#user_logo_2 {
+	width: 100px;
+	height: 100px;
+	margin-top: 20px; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#user_logo_1 img {
+	width: 100%;
+	height: 100%;
+}
+
+#user_logo_2 img {
+	width: 100%;
+	height: 100%;
+}
+
+#user_1 {
+	position: fixed;
+	background-color: #f0f0f0;
+	top: 15px;
+	left: 25px;
+	width: 200px;
+	height: 1000px;
+	border: 2px solid black;
+}
+
+#user_2 {
+	position: fixed;
+	background-color: #f0f0f0;
+	top: 15px;
+	left: 2320px;
+	width: 200px;
+	height: 1000px;
+	border: 2px solid black;
+}
+
+#user_1 a {
+	position: absolute;
+	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	height: 80px;
+}
+
+#user_2 a {
+	position: absolute;
+	left: 0;
+ 	bottom: 0;
+ 	width: 100%;
+ 	height: 80px;
+}

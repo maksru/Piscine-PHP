@@ -1,0 +1,19 @@
+
+<- GameZone ----------------------------------------------------------------------
+The class containes everything for the game. It describes metasector of the battle
+and confronter commanders.
+
+There is two public attributes:
+- obstacles (array)
+- players (array)
+
+Constructor requires nothing. Instead use public setPlayers() method (requires
+array of Player instances) method to set players.
+
+refillEnergy() method refills all ship's speed and power after the end of the
+turn.
+
+onPlace() checks what is situated in actual sector (requires coordinates). If
+sector is clear - returns null, if there is obstacle - returns the string "obst",
+if there is ship - returns it's object.
+---------------------------------------------------------------------- GameZone ->

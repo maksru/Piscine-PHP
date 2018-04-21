@@ -1,0 +1,11 @@
+
+<- Weapon ----------------------------------------------------------------------
+Contains description of weapon.
+
+Got attributes name, charge, short, middle, long, special.
+
+Constructor requires array with mandatory 'name' key.
+
+Method fire() returnes a string with short description of weapon.
+shortRange(), midRange(), longRange() return respectevely weapon ranges.
+---------------------------------------------------------------------- Weapon ->

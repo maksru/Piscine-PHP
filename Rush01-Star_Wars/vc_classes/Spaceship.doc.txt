@@ -1,0 +1,8 @@
+
+<- Spaceship ----------------------------------------------------------------------
+Just a description of regular spaceship.
+
+Constructor requires array with 'name', 'weapon' and 'sprite'.
+
+Method refillEnergy() refills ship's power and speed.
+---------------------------------------------------------------------- Spaceship ->
