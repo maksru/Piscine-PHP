@@ -1,5 +1,5 @@
 # Piscine-PHP
-PHP-pool in 2 weeks to learn the languages of the Internet
+PHP pool of 2 weeks to become familiar with the languages of the web.
 
 [Subject Day_00] (https://github.com/maksru/Piscine-PHP/blob/master/Day_00-HTML-CSS/d00.en.pdf)
 
